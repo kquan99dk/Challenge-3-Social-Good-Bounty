@@ -51,6 +51,7 @@ const App = ({ contract, currentUser, nearConfig, wallet }) => {
 
   const signOut = () => {
     wallet.signOut();
+    // eslint-disable-next-line no-undef
     window.location.replace(window.location.origin + window.location.pathname);
   };
 
@@ -136,12 +137,12 @@ const App = ({ contract, currentUser, nearConfig, wallet }) => {
                 </p>
               </div>
               <div className="w-50 ps-3">
-                <img className="w-100 rounded" src="../assets/book2.jpg" />
+                <img className="w-100 rounded" src="https://image.cnbcfm.com/api/v1/image/106357368-1580149122021at-the-library_t20_3j87o3.jpg?v=1580149230" />
               </div>
             </div>
             <div className="d-flex mt-5">
               <div className="w-50 pe-3">
-                <img className="w-100 rounded" src="../assets/book3.jpg" />
+                <img className="w-100 rounded" src="https://cdn.techinasia.com/wp-content/uploads/2016/09/reading-book.jpg" />
               </div>
               <div className="w-50 ps-3">
                 <p>
@@ -156,16 +157,16 @@ const App = ({ contract, currentUser, nearConfig, wallet }) => {
         </div>
         :
         <div className="pb-5">
-          <div style={{ marginTop: '50px', padding: '0 8%' }} className="d-flex justify-content-between">
-            <div className="d-flex flex-column w-75 pt-5">
+          <div style={{ marginTop: '50px', padding: '0 8%' }} className="d-flex justify-content-between align-items-center pt-5">
+            <div className="d-flex flex-column w-50">
               <p style={{ color: '#26bc57', fontSize: '14px' }}>READING IGNITION</p>
               <p style={{ fontSize: '60px', lineHeight: '70px' }} className="text-white my-2">READING CULTURE IGNITION</p>
               <p style={{ fontFamily: 'Inter,sans-serif', fontSize: '35px', fontWeight: '400' }}
                 className="text-warning">
                 RAISING MONEY, RAISING READER.</p>
             </div>
-            <div>
-              <img className="w-100" src="../assets/book1.png" />
+            <div className="w-50">
+              <img className="w-100" src="https://vnmedia.monkeyuni.net/upload/web/storage_web/04-03-2022_13:38:02_shutterstock_134721788.jpg?fbclid=IwAR2og23H3CHwbDSbqochuTP2y_fFLsFmjJ8LnHlNfCVc7Yr3R0reFL1pIl0" />
             </div>
           </div>
           <div className="d-flex justify-content-between mt-5" style={{ padding: '0 8%' }}>
