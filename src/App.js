@@ -73,7 +73,7 @@ const App = ({ contract, currentUser, nearConfig, wallet }) => {
 
       {currentUser
         ?
-        <div>
+        <div className="pb-5">
           <div style={{ marginTop: '50px', padding: '0 8%' }} className="d-flex justify-content-center text-white">
             <div className="w-100 d-flex flex-column align-items-center">
               <p style={{ color: '#26bc57', fontSize: '14px' }}>READING CULTURE IGNITION</p>
@@ -136,12 +136,12 @@ const App = ({ contract, currentUser, nearConfig, wallet }) => {
                 </p>
               </div>
               <div className="w-50 ps-3">
-                <img className="w-100 rounded" src="@/assets/book2.jpg" />
+                <img className="w-100 rounded" src="../assets/book2.jpg" />
               </div>
             </div>
             <div className="d-flex mt-5">
               <div className="w-50 pe-3">
-                <img className="w-100 rounded" src="@/assets/book3.jpg" />
+                <img className="w-100 rounded" src="../assets/book3.jpg" />
               </div>
               <div className="w-50 ps-3">
                 <p>
@@ -155,7 +155,7 @@ const App = ({ contract, currentUser, nearConfig, wallet }) => {
           </div>
         </div>
         :
-        <div>
+        <div className="pb-5">
           <div style={{ marginTop: '50px', padding: '0 8%' }} className="d-flex justify-content-between">
             <div className="d-flex flex-column w-75 pt-5">
               <p style={{ color: '#26bc57', fontSize: '14px' }}>READING IGNITION</p>
@@ -165,7 +165,7 @@ const App = ({ contract, currentUser, nearConfig, wallet }) => {
                 RAISING MONEY, RAISING READER.</p>
             </div>
             <div>
-              <img className="w-100" src="@/assets/book1.png" />
+              <img className="w-100" src="../assets/book1.png" />
             </div>
           </div>
           <div className="d-flex justify-content-between mt-5" style={{ padding: '0 8%' }}>
@@ -207,8 +207,6 @@ const App = ({ contract, currentUser, nearConfig, wallet }) => {
           </div>
         </div>
       }
-      <div className="mb-5">
-      </div>
     </div>
   );
 };
