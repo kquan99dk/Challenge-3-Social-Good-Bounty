@@ -136,12 +136,12 @@ const App = ({ contract, currentUser, nearConfig, wallet }) => {
                 </p>
               </div>
               <div className="w-50 ps-3">
-                <img className="w-100 rounded" src="https://image.cnbcfm.com/api/v1/image/106357368-1580149122021at-the-library_t20_3j87o3.jpg?v=1580149230" />
+                <img className="w-100 rounded" src="@/assets/book2.jpg" />
               </div>
             </div>
             <div className="d-flex mt-5">
               <div className="w-50 pe-3">
-                <img className="w-100 rounded" src="https://i.insider.com/55a50e76ecad04f77dce0995?width=1000&format=jpeg&auto=webp" />
+                <img className="w-100 rounded" src="@/assets/book3.jpg" />
               </div>
               <div className="w-50 ps-3">
                 <p>
@@ -165,7 +165,7 @@ const App = ({ contract, currentUser, nearConfig, wallet }) => {
                 RAISING MONEY, RAISING READER.</p>
             </div>
             <div>
-              <img className="w-100" src="https://scontent.fhan3-2.fna.fbcdn.net/v/t1.15752-9/278630733_1686367041696476_7462859597048508943_n.png?_nc_cat=107&ccb=1-5&_nc_sid=ae9488&_nc_ohc=bbqnFbFCuTgAX_Kew-o&_nc_ht=scontent.fhan3-2.fna&oh=03_AVIQ-D6_8S9Zt9H1KSYbx3rp7qt1h01JtiYvJO9Kgcf6jw&oe=62947C4F" />
+              <img className="w-100" src="@/assets/book1.png" />
             </div>
           </div>
           <div className="d-flex justify-content-between mt-5" style={{ padding: '0 8%' }}>
@@ -207,8 +207,7 @@ const App = ({ contract, currentUser, nearConfig, wallet }) => {
           </div>
         </div>
       }
-      <div>
-        <img className="w-100" src="https://scontent-lhr8-2.xx.fbcdn.net/v/t1.15752-9/279265133_739268187453048_4048041805013052500_n.png?_nc_cat=105&ccb=1-5&_nc_sid=ae9488&_nc_ohc=Yl0SC2wmVNYAX9ng6DP&_nc_ht=scontent-lhr8-2.xx&oh=03_AVKDKb8fn5PIQRFM_cKuR-OpefH6uFU3Fwjvr6Wm_Jj4Wg&oe=62955C95" />
+      <div className="mb-5">
       </div>
     </div>
   );
